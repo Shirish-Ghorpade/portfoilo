@@ -1,0 +1,146 @@
+
+/* This is better way by code with harry logic (*) use karke sabi elements ki margin an dpadding 0 set kardo*/
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+/* The specific is is in inspect */
+body{
+  margin: 0; /*all four sides*/
+  text-align: center;
+  font-family: "Merriweather",sans-serif;
+  color: #40514E;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento",sans-serif;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+h2{
+  font-family: "Montserrat",sans-serif;
+  font-size: 2.18rem;
+  color: #66BFBF;
+  /* font-weight: normal; */
+}
+h3{
+  font-family: "Montserrat",sans-serif;
+  color: #11999E;
+}
+span{
+  text-decoration: underline;
+}
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 5px; /*Width and height of rhe dot*/
+  width: 5%; /*length of the dottes*/
+  margin: 100px auto 100px auto;
+  color: #EAF6F6;
+}
+.top-container{
+  background-color: #E4f9f5;
+  position: relative; /*Now this become the parent of all images inide yhis div*/
+  padding-top: 100px;
+}
+.top-cloud{
+  position: absolute;
+  right: 280px;
+  top: 50px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.profile-picture{
+  margin-top: 70px;
+  width: 15%;
+}
+.skills-pic1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skills-pic2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* Paragraph chi width me direct pn decide karu shaktho without putting them into the div */
+/* 1.div madhe takun */
+/* .profile-desc{
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+} */
+/* direct target paragraph */
+.intro{
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+}
+.contact-desc{
+  width: 40%;
+  margin: 50px auto 70px auto;
+  line-height: 2;
+}
+.contact-head{
+  margin-top: 30px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.contact-me{
+  margin-bottom: 100px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin: 35px 0;
+}
